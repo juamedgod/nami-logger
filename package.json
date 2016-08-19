@@ -1,6 +1,6 @@
 {
   "name": "nami-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Custom Logger",
   "main": "index.js",
   "repository": {
