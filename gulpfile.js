@@ -2,7 +2,7 @@
 
 const gulp = require('gulp');
 const commonTasks = require('bitnami-gulp-common-tasks')(gulp);
-const runSequence = require('run-sequence');
+const runSequence = require('gulp4-run-sequence');
 
 
 /* CI tasks */
@@ -40,4 +40,4 @@ gulp.task('clean', () => {
   runSequence('test:clean', 'ci-test:clean', 'npm-pack:clean');
 });
 
-gulp.task('default', ['test']);
+gulp.task('default', gulp.series('test'));
