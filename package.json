@@ -1,6 +1,6 @@
 {
   "name": "nami-logger",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Custom Logger",
   "main": "index.js",
   "repository": {
@@ -23,14 +23,14 @@
     "lodash": "^4.17.10"
   },
   "devDependencies": {
-    "bitnami-gulp-common-tasks": "bitnami/gulp-common-tasks#v2.0.2",
-    "eslint": "^2.13.1",
+    "bitnami-gulp-common-tasks": "bitnami/gulp-common-tasks#v3.0.0",
+    "eslint": "^6.5.1",
     "eslint-config-bitnami": "bitnami/eslint-config-bitnami#v1.0.0",
     "eslint-plugin-import": "^1.14.0",
     "expect.js": "^0.3.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "intercept-stdout": "^0.1.2",
-    "run-sequence": "^1.2.1",
+    "gulp4-run-sequence": "^1.0.1",
     "tmp": "^0.0.28"
   }
 }
